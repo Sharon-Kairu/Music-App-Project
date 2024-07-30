@@ -1,0 +1,55 @@
+/* Existing styles */
+.table-view {
+    -fx-base: #f2f2f2;
+    -fx-control-inner-background: -fx-base;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #ddd;
+}
+
+.table-view .column-header {
+    -fx-text-fill: #333;
+    -fx-font-weight: bold;
+}
+
+.table-view .table-cell {
+    -fx-padding: 5px;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: #f9f9f9;
+}
+
+.table-view .table-row-cell:odd {
+    -fx-background-color: #f9f9f9;
+}
+
+/* Blue color for selected row */
+.table-view .table-row-cell:selected {
+    -fx-background-color: #007bff; /* Blue background */
+    -fx-text-fill: white; /* White text color */
+}
+
+.table-view .table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-view .table-column:first-of-type {
+    -fx-alignment: LEFT;
+}
+
+/* New styles for play button */
+.button {
+    -fx-background-color: #007bff; /* Blue color */
+    -fx-text-fill: white; /* White text color */
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Darker blue for hover */
+}
+
+.button:pressed {
+    -fx-background-color: #004085; /* Even darker blue for pressed state */
+}
